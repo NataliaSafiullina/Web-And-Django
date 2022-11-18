@@ -1,6 +1,6 @@
 """
 Модуль models.py.
-Описыват модели Django
+Описывает модели Django
 """
 
 from django.db import models

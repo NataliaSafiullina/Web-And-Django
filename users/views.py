@@ -42,7 +42,8 @@ def get_name(request):
 def user_by_name(request):
     """
     Представление user_by_name().
-    Получает значения из модели и ищет данные в БД
+    Получает значения из модели и ищет данные в БД.
+    Предоставляет найденные результаты в шаблоне user/search (results.html).
     """
 
     print('Получили: ', SearchingUsers.ByName)
