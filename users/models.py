@@ -1,6 +1,15 @@
+"""
+Модуль models.py.
+Описыват модели Django
+"""
+
 from django.db import models
 
-# создание модели данных класса Model
+
 class SearchingUsers(models.Model):
-    # модель имеет одно текстовое поле
+    """
+    Создание модели данных с именем SearchingUsers класса Model.
+    Модель имеет одно текстовое поле: ByName, длиной 100 символов
+    """
+
     ByName = models.CharField(max_length=100)
